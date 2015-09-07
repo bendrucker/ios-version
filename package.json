@@ -1,0 +1,33 @@
+{
+  "name": "ios-version",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Detect the current iOS version in the browser",
+  "license": "MIT",
+  "repository": "bendrucker/ios-version",
+  "author": {
+    "name": "Ben Drucker",
+    "email": "bvdrucker@gmail.com",
+    "url": "bendrucker.me"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "ios",
+    "version",
+    "detect"
+  ],
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^4.0.0"
+  },
+  "files": [
+    "index.js",
+    "current.js"
+  ],
+  "dependencies": {
+    "global": "~4.3.0",
+    "parse-int": "~1.0.0"
+  }
+}
