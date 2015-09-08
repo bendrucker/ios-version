@@ -15,16 +15,16 @@ $ npm install --save ios-version
 ```js
 var iOsVersion = require('ios-version')
 
-iOsVersion('"Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X)...')
+iOsVersion('Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X)...')
 //=> {major: 8, minor: 4, patch: 0}
 
-var current = require('ios-version/curren t')
+var current = require('ios-version/current')
 // passes navigator.userAgent to iOsVersion
 ```
 
 ## API
 
-#### `iosVersion(agent)` -> `object`
+#### `iOsVersion(agent)` -> `object`
 
 Returns a semver object with `major` / `minor` / `patch` version numbers.
 
