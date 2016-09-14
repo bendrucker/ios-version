@@ -1,7 +1,7 @@
 {
   "name": "ios-version",
   "main": "index.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Detect the current iOS version in the browser",
   "license": "MIT",
   "repository": "bendrucker/ios-version",
