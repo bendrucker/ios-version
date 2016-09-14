@@ -1,7 +1,7 @@
 'use strict'
 
 var parseIntStrict = require('parse-int')
-var REGEX = /OS (\d_\d(_\d)?)/
+var REGEX = /OS (\d\d?_\d(_\d)?)/
 
 module.exports = function iOsVersion (agent) {
   if (!agent) return null

@@ -5,6 +5,12 @@ var iOsVersion = require('./')
 var agents = require('./agents.json')
 
 test(function (t) {
+  assert('10', {
+    major: 10,
+    minor: 0,
+    patch: 1
+  })
+
   assert('8', {
     major: 8,
     minor: 4,
@@ -30,4 +36,3 @@ test(function (t) {
     t.deepEquals(iOsVersion(agents[agent]), expected)
   }
 })
-
