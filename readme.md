@@ -1,4 +1,4 @@
-# ios-version [![Build Status](https://travis-ci.org/bendrucker/ios-version.svg?branch=master)](https://travis-ci.org/bendrucker/ios-version)
+# ios-version [![Build Status](https://travis-ci.org/bendrucker/ios-version.svg?branch=master)](https://travis-ci.org/bendrucker/ios-version) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/ios-version.svg)](https://greenkeeper.io/)
 
 > Detect the current iOS version in the browser
 
